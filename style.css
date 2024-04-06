@@ -68,11 +68,14 @@ body, html {
 }
 
 .footer{
+  
   padding: 40px;
   padding-left: 20px;
+  display: block;
   align-items: center;
   text-align: center;
-  
+
+
 }
 
 .profile-img{
@@ -99,7 +102,122 @@ body, html {
 .lchead{
   margin-left: 50px;
   font-size: 25px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 .lcbody{
   margin-left: 50px;
+}
+
+.garone{
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.preview-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+
+}
+
+.address{
+  font-family: 'Courier New', Courier, monospace;
+padding-left: 150px;
+padding-right: 150px;
+}
+.head-address{
+  font-size: larger;
+}
+
+.copyright{
+  padding: 1px;
+}
+
+
+  
+
+
+
+.cleanit {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.cleanit:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .cleanit {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+.whole{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Address-bar{
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.Address-font{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Address-div{
+  align-items: center;
+}
+
+.sa,.city,.state,.zip{
+  
+  padding-bottom: 10px;
+}
+
+.sa,.city{
+  height: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.state,.zip{
+  height: 20px;
+  width: 144px;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  font-family: 'Courier New', Courier, monospace;
 }
