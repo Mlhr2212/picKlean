@@ -1,0 +1,105 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em; 
+  
+}
+
+.menu {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+  font-size: 1em; 
+}
+
+
+
+.menu a.active {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #000; 
+}
+
+.photo-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase; 
+  cursor: pointer;
+}
+
+.photo-button:hover{
+  background-color: rgb(33, 32, 32);
+  transition: 1ms;
+}
+
+.img-one{
+  width: 100%;
+  height: 100%;
+}
+
+.img-two{
+  width: 100%;
+  height: 100%;
+}
+
+.footer{
+  padding: 40px;
+  padding-left: 20px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.profile-img{
+  width: 100%;
+  height: 100%;
+}
+
+.head{
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+  font-size: larger;
+  font-weight:550;
+}
+
+.body-about{
+  line-height: 2;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.lchead{
+  margin-left: 50px;
+  font-size: 25px;
+}
+.lcbody{
+  margin-left: 50px;
+}
