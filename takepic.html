@@ -13,23 +13,36 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f0f0;
+            background-color: #ffffff;
+            
         }
         /* Style the video stream */
         #camera-stream {
             width: 100%;
             max-width: 640px;
             border: 2px solid #333;
+            
         }
         /* Style the snapshot button */
         #capture-button {
             margin-top: 16px;
             padding: 8px 16px;
-            background-color: #007bff;
+            background-color: #000000;
             color: #fff;
             border: none;
             cursor: pointer;
+            border-radius: 10px;
         }
+        #capture-button:hover{
+            background-color: #333;
+        }
+
+        #capture-button:active{
+            background-color: #65ff91;
+            color: black;
+        }
+        
+
         /* Style the photo gallery */
         #photo-gallery {
             display: flex;
@@ -65,12 +78,28 @@
   </div>
 </div>
 
+<div class="whole">
     <div id="camera-container">
         <video id="camera-stream" autoplay muted></video>
         <button id="capture-button">Take Photo</button>
     </div>
-    <div></div>
-    
+    <div class="Address-bar">
+        <div class="Address-div" >
+        <p class="Address-font">Address</p>
+    </div>
+    <div >
+        <input class="sa" type="text" placeholder="Street Address">
+    </div>
+        <div >
+        <input class="city" type="text" placeholder="City">
+    </div>
+        <div>
+        <input class="state" type="text" placeholder="State">
+        <input class="zip" type="text" placeholder="Zip Code">
+    </div>
+
+    </div>
+</div>
   
     <div id="photo-gallery"></div>
     <script>
